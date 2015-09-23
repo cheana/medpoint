@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>MedPoint</title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+    <ion-pane>
+        <ion-header-bar class="bar-stable">
+          <a class="button icon-left ion-chevron-left button-clear button-dark" style="color:#04142B;"></a>
+          <h2 class="title" style="color: #04142B;">Pharmacy</h3>
+        </ion-header-bar>
+        <div>
+        <ion-content>
+            <div class="list list-inset">
+                <a class="item item-avatar" href="#">
+                  <img src="img/mer.jpg">
+                  <h3 style="color: #04142B;">Mercury Drug Store</h3>
+                  <p>Gamot ay Laging Bago</p>
+                  <span class="badge badge-assertive">17</span>
+                </a>
+                <a class="item item-avatar" href="#">
+                  <img src="img/ros.jpg">
+                  <h3 style="color: #04142B;">Rose Pharmacy</h3>
+                  <p>Your Assurance of Genuine Drugs</p>
+                  <span class="badge badge-assertive">17</span>
+                </a>
+                <a class="item item-avatar" href="#">
+                  <img src="img/gen.jpg">
+                  <h3 style="color: #04142B;">The Generics Pharmacy</h3>
+                  <p>Mabisa na, Matipid pa!</p>
+                  <span class="badge badge-assertive">3</span>
+                </a>
+            </div>
+            <div>
+        <p><br></p>
+        <center><i class="icon ion-star"></i></center>
+        <center><h1>MedPoint</h1></center>
+      </div>
+        </ion-content>
+        </div>
+         <div class="bar bar-footer">
+          <div class="tabs tabs-icon-top">
+            <a class="tab-item" href="#/app/pharmacy">
+              <i class="icon ion-home"></i>
+              Pharmacy
+            </a>
+            <a class="tab-item">
+              <i class="icon ion-medkit"></i>
+              Medicine
+            </a>
+            <a class="tab-item">
+              <i class="icon ion-earth"></i>
+              Map
+            </a>
+          </div>
+      </div>
+    </ion-pane>
+  </body>
+</html>
